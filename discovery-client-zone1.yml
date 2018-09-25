@@ -14,4 +14,4 @@ endpoints:
   shutdown:
     enabled: true
 zone: zone1
-test: dobri_vie
+test: eve_super
