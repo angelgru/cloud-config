@@ -7,9 +7,11 @@ eureka:
   client:
     service-url:
       default-zone: http://localhost:8761/eureka/, http://localhost:8762/eureka/, http://localhost:8763/eureka/
+management:
+  security:
+    enabled: false
 endpoints:
   shutdown:
     enabled: true
-
 zone: zone1
 test: dobri_vie
